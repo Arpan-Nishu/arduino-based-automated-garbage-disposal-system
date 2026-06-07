@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fritzing version="0.9.10">
+  <title>Arduino Automated Garbage Disposal System</title>
+  <description>Circuit diagram for Arduino-based automated garbage disposal system with ultrasonic sensor, IR sensor, servo motor, LCD display, and LED indicators.</description>
+  <parts>
+    <part module="Arduino Uno R3" />
+    <part module="HC-SR04 Ultrasonic Sensor" />
+    <part module="IR Obstacle Sensor" />
+    <part module="SG90 Servo Motor" />
+    <part module="16x2 I2C LCD" />
+    <part module="5V Buzzer" />
+    <part module="Red LED" />
+    <part module="Yellow LED" />
+    <part module="Green LED" />
+    <part module="220 Ohm Resistor" x="3" />
+    <part module="Breadboard Mini" />
+  </parts>
+</fritzing>

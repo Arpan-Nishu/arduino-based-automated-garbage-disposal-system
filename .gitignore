@@ -1,0 +1,16 @@
+# Arduino build artifacts
+build/
+dist/
+*.o
+*.elf
+*.hex
+/__tmp/
+
+# IDE files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Simulation backups
+wokwi-sim-*
