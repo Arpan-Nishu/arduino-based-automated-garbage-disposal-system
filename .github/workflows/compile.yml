@@ -1,0 +1,15 @@
+name: Arduino Compile Check
+on: [push, pull_request]
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: arduino/compile-sketches@v1
+        with:
+          fqbn: arduino:avr:uno
+          sketch-paths: arduino-code
+          libraries: |
+            - name: Servo
+            - name: LiquidCrystal_I2C
